@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="866552474745021019431d98036d43b7" label="User List" max_length="40" name="x_1336374_plat4us_user_list" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Email Adress" max_length="40" name="email_adress" type="string"/>
+        <element label="Employee Number" max_length="40" name="employee_number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Phone Number" max_length="40" name="phone_number" type="phone_number_e164"/>
+    </element>
+</database>
